@@ -151,7 +151,6 @@ img {
 
 .hero-button {
   display: inline-block;
-  min-width: 210px;
   padding: 16px 32px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -206,7 +205,7 @@ img {
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  padding: auto auto;
+  align-items: center;
 }
 
 .values-item {
@@ -326,6 +325,9 @@ img {
 .customer-title {
   margin-bottom: 72px;
   text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .customer-list {
@@ -334,28 +336,28 @@ img {
 }
 
 .customer-item {
-  padding: 16px 32px;
+  height: 88px;
   width: calc((100%-120px) / 6);
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 
 .customer-link {
   width: 100%;
   height: 100%;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .customer-icon {
-  fill: "#8e8f99";
+  fill: currentColor;
 }
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color: #404bbf;
-}
-
-.customer-link:hover .customer-icon {
-  fill: #404bbf;
+  color: #404bbf;
 }
 
 /* --------- Footer ----------*/
@@ -365,6 +367,14 @@ img {
   padding-bottom: 100px;
   display: flex;
   margin-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-text-container {
+  margin-right: 120px;
 }
 
 .footer-logo {
