@@ -318,7 +318,7 @@ img {
 
 .customer {
   /* outline: 1px solid tomato; */
-  padding-top: 130px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -358,6 +358,11 @@ img {
 .customer-link:hover,
 .customer-link:focus {
   color: #404bbf;
+}
+
+.customer-link:hover .customer-icon,
+.customer-link:focus .customer-icon {
+  fill: #404bbf;
 }
 
 /* --------- Footer ----------*/
