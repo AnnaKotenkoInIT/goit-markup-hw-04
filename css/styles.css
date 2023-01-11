@@ -409,12 +409,11 @@ img {
 .footer-soc-med > .footer-text {
   margin-bottom: 16px;
   font-weight: 500;
+  max-width: 208px;
 }
 
 .footer-social-list {
-  max-width: 208px;
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 
