@@ -406,10 +406,18 @@ img {
   color: #e7e9fc;
 }
 
+.footer-name-icons {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #e7e9fc;
+}
+
 .footer-soc-med > .footer-text {
   margin-bottom: 16px;
   font-weight: 500;
-  max-width: 208px;
 }
 
 .footer-social-list {
