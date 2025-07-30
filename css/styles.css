@@ -110,6 +110,10 @@ img {
   transition: color var(--cubic);
 }
 
+.header-link.current {
+  color: var(--cl-focus);
+}
+
 .header-link.current::after {
   content: '';
   position: absolute;
@@ -119,7 +123,6 @@ img {
   left: 0;
   bottom: -1px;
   border-radius: 2px;
-  color: #404bbf;
 }
 
 .header-link:hover,
